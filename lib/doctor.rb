@@ -16,7 +16,6 @@ class Doctor
 
   def patients
     @appointments.collect { |appt| appt.patient }.uniq
-
   end
 
 end
